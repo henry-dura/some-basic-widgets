@@ -20,7 +20,7 @@ class DissmissibleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dissimisible Widget'),
+        title: const Text('Dissimisible Widget'),
       ),
       body: ListView.builder(
           itemCount: fruitsPerson['fruits'].length,

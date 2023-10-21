@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'list_view.dart';
-import 'grid_view.dart';
-import 'snack_bar.dart';
-import 'dissmisible.dart';
-import 'drawer.dart';
-import 'alert_dialog.dart';
-import 'bottom_sheet.dart';
+import 'simple_Ui.dart';
+import 'complex_Ui.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,9 +12,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return  const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter widgets',
-      home:  BottomSheetWidget(),
+      home: ComplexUI(),
     );
   }
 }

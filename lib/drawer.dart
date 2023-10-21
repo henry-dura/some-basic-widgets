@@ -7,7 +7,7 @@ class DrawerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Drawer Widget'),
+        title: const Text('Drawer Widget'),
         centerTitle: true,
       ),
       drawer: Drawer(

@@ -7,9 +7,9 @@ class AlertDialogWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Alert Dialog Widget'),
+        title: const Text('Alert Dialog Widget'),
       ),
-      body: Center(child: ElevatedButton(onPressed: () {_showMyDialog(context);}, child: Text('Alert me'))),
+      body: Center(child: ElevatedButton(onPressed: () {_showMyDialog(context);}, child: const Text('Alert me'))),
     );
   }
 }
